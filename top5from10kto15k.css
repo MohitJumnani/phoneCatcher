@@ -1,0 +1,38 @@
+#poco{
+  position: absolute;
+    width: 700px;
+    top:50px ;
+    left: -50px;
+}
+#redmi{
+   position: absolute;
+    width: 410px;
+    left: 750px;
+    top: 50px;
+}
+#redmi10s{
+  position: absolute;
+    width: 470px;
+    top: 35px;
+    left: 1385px;
+
+}
+#samsung{
+   position: absolute;
+    width: 400px;
+    top: 550px;
+    left: 95px;
+    
+}
+#oppo{
+  position: absolute;
+    width: 425px;
+    top: 550px;
+    left:750px ;
+}
+#oppo9i{
+   position: absolute;
+    width: 300px;
+    top: 550px;
+    left: 1500px;
+}

@@ -1,0 +1,101 @@
+body{
+    height: 94.5vh;
+    width: 99vw;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    height: 20%;
+    width: 99%;
+}
+input{
+    font-size:30 px; 
+}
+button{
+    font-size:35px;
+    padding: 0 8px;
+    border-radius: 20px;
+    background: #fff;
+    border-width: 0;
+    box-shadow: 0 0 10px #fff;
+    top: 50px;
+    position: absolute;
+    left: 1025px;
+}
+section{
+    width: 33%;
+    height: 80%;
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    background-repeat: no-repeat;
+    background-position: -300px 0;
+    background-size: cover;
+
+}   
+#BUDGET {
+    background-image: url("https://www.noypigeeks.com/wp-content/uploads/2020/05/Realme-Narzo-10A-NoypiGeeks.jpg");
+}
+#MIDRANGE {
+    background-image: url("https://www.dekhnews.com/wp-content/uploads/2021/06/002-1.jpg");
+    background-position: -250px;
+    background-size: cover;
+}
+#FLAGSHIP {
+    background-image: url("https://www.shropshirestar.com/resizer/LpuEKJkDuho4cTi6tYx8k9__6XA=/1200x0/cloudfront-us-east-1.images.arcpublishing.com/mna/JMIXOVSHWRDNDBFPACUS5XOOTI.jpg");
+}
+div{
+    margin-top: 300px;
+    margin-left: 200px;
+    text-shadow: 0 0 20px black;
+}
+img{
+    width:300px;
+    border-radius: 200px;
+    z-index: 1;
+    position: absolute;
+    left: 1650px;
+    top: 30px;
+}
+h1 {
+    text-align: left;
+    animation-name: h1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+input{
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    font-size: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    box-shadow: 0px 0px 25px #61C5FA;
+    border:1px solid #5AB0DB;
+}
+
+@keyframes h1{
+    50% {
+        text-shadow: 0 0 20px rgb(238, 19, 19);
+    }
+    100% {
+        text-shadow: 0 0 20px rgb(0, 255, 255);
+    }
+}
+#stcompany{
+    position: absolute;
+    left: 1350px;
+}
+#stprice{
+    position: absolute;
+    left: 1100px;
+}

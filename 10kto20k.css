@@ -1,0 +1,23 @@
+#oneplusnord2{
+    position: absolute; 
+    width: 550px;
+    top: -60px;
+    left: 200px;
+}
+#realme{
+    position: absolute;
+    width:450px ;
+    left: 1200px;
+}
+#poco{
+    position: absolute;
+    width:500px ;
+    top: 475px;
+    left: 225px;
+}
+#samsung{
+    position: absolute;
+    width: 500px;
+    top: 475px;
+    left: 1200px;
+}

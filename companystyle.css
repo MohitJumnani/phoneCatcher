@@ -1,0 +1,29 @@
+#samsung{
+    position: absolute;
+     width: 325px;
+     top: 450px ;
+}
+#oppo{ 
+    position: absolute;
+    width: 300px; 
+    left: 400px;
+    top:440px ;
+}
+#apple{
+    position: absolute;
+    width: 200px;
+    left: 785px;
+    top: 400px ;
+}
+#Mi{
+   position: absolute;
+   width: 300px;
+   left: 1075px;
+    top: 435px ;
+}
+#asus{
+   position: absolute;
+   width: 350px;
+   right :100px ; 
+   top: 450px;
+}

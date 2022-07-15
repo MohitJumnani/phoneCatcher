@@ -1,0 +1,78 @@
+ body{
+
+
+       background-color: black;
+
+
+
+ }
+ #under{
+   position: absolute;
+   width: 425px;
+   top: 200px;
+   font-size: 30px;
+   height: 100px;
+   left: 100px;
+}
+
+#t{
+   position: absolute;  
+   width: 435px;
+   top: 200px;
+   font-size: 30px;
+   left: 700px;
+   height: 100px;
+}
+
+#twenty{
+    position: absolute;
+    width: 425px;
+    top: 200px;
+    font-size: 30px;
+    left: 1300px;
+    height: 100px;
+}
+
+#forty{
+     position: absolute;
+     width:425px;
+     top: 600px;
+     font-size: 30px;
+     height: 100px;
+     left: 100px;
+}
+#seventy{
+     position: absolute;
+     width: 425px;
+     top: 600px;
+     font-size: 30px;
+     height: 100px;
+     left: 700px;
+}
+#twolakh{
+     position: absolute;
+     width: 425px;
+     top: 600px;
+     font-size: 30px;
+     height: 100px;
+     left: 1300px;
+}
+button{
+    border-radius: 200px;
+    box-shadow: 0 0 20px red;
+    animation-name: button;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+@keyframes button{
+    50% {
+        text-shadow: 0 0 20px rgb(238, 19, 19);
+        box-shadow: 0 0 20px rgb(0, 255, 255);
+    }
+    100% {
+        text-shadow: 0 0 20px rgb(0, 255, 255);
+        box-shadow: 0 0 20px rgb(238, 19, 19);
+    }
+}
+
+
